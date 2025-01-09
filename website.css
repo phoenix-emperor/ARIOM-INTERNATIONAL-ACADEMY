@@ -8,7 +8,7 @@ html,body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 
-    color: darkorange;
+    color: blue;
 }
 .container{
     width: 1300px;
@@ -16,8 +16,8 @@ html,body{
 
 }
 .header{
-    background: pink;
-    padding: 6px;
+    background-color: darkseagreen;
+    padding: 12px;
 }
 .header b{
     background: #eee;
@@ -78,7 +78,7 @@ html,body{
     display: inline-block;
     text-decoration: none;
     color: darkblue;
-    border: 1px solid white;
+    border: 1px solid burlywood;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -273,9 +273,25 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
-.icons .fa{
-    color: #f44366;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
+.Academy {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.ariom {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.svg {
+    width : 20%;
+    padding-top: 20%;
+    margin-right: 20%;
+    border-radius: 100%;
+    background-color: #ec567c;
+    float: left;
+    box-sizing: border-box;
+}
+svg:last-of-type{
+    margin-right: 0;
 }
